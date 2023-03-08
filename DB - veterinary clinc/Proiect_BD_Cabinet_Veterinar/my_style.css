@@ -1,0 +1,321 @@
+/* PENTRU TOATE PAGINILE */
+
+@import url('https://fonts.cdnfonts.com/css/leckerli-one');
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
+/* stilul tabelelor */
+#customers {
+  font-family: Raleway, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #ede6e6;}
+#customers tr:nth-child(odd){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E36D72;
+  color: white;
+}
+
+button_text{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+link_text{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	text-decoration-line: underline;
+
+	color: #146CD3;
+
+}
+
+/* SIGNUP SI LOGIN */
+.bkg{
+	background: linear-gradient(180deg, #E68387 0%, #F4DDDD 100%);
+}
+
+box_sign{
+	position: absolute;
+	width: 916px;
+	height: 1025px;
+	left: 342px;
+	top: 60px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+box_personal{
+	position: absolute;
+	width: 916px;
+	height: 790px;
+	left: 342px;
+	top: 60px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+box_log{
+	position: absolute;
+	width: 916px;
+	height: 450px;
+	left: 342px;
+	top: 60px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.poz_logo{
+	position: absolute;
+	width: 349px;
+	height: 38px;
+	left: 283px;
+	top: 40px;
+}
+
+poz_titlu{
+	position: absolute;
+	width: 424px;
+	height: 56px;
+	left: 270px;
+	top: 78px;
+
+}
+
+titlu{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+
+	color: #B96969;
+}
+
+poz_form{
+	position: absolute;
+	left: 84px;
+	top: 174px;
+}
+
+.input_sl{
+	width: 749px;
+	height: 43px;
+	padding-left: 10px;
+	background: #F4DDDD;
+	border-radius: 8px;
+	border-width : 0;
+}
+
+.text_select{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #8B7A7A;
+}
+
+input::placeholder{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #8B7A7A;
+}
+
+subtext{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #B96969;
+}
+
+.button_sl{
+	width: 762px;
+	height: 50px;
+
+	background: #E36D72;
+	border-radius: 8px;
+	border-width : 0;
+	
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+poz_button_s{
+	position: absolute;
+	top: 750px;
+}
+
+poz_button_l{
+	position: absolute;
+	top: 180px;
+}
+
+poz_button{
+	position: absolute;
+	left: 84px;
+	top: 1014px;
+	visibility: visible;
+}
+
+
+/* PAGINILE DE ADMIN SI STAPAN */
+.bkg2{
+	background: linear-gradient(180deg, #F4DDDD 45.66%, #FFFFFF 100%);
+}
+
+poz_logo_mare{
+	text-align:center;
+	display:block;
+}
+
+titlu_homepage{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+
+	color: #B96969;
+}
+
+titlu_pp{
+	font-family: 'Leckerli One', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 54px;
+
+	color: #E36D72;
+}
+
+titlu_cv{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 47px;
+
+	color: #B96969;
+}
+
+text_inapoi_la{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #E36D72;
+}
+
+poz_sageata{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+poz_titlu_la tabel{
+	position: absolute;
+	left: 625px;
+	top: 40px;
+}
+
+
+/* DOAR PAGINILE DE ADMIN */
+.button_admin{
+	width: 469px;
+	height: 49px;
+
+	background: #E36D72;
+	border-radius: 8px;
+	border-width : 0;
+	
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+poz_poze_admin{
+	position: absolute;
+	width: 1364px;
+	height: 266px;
+	left: 118px;
+	top: 792px;
+}
+
+/* DOAR PAGINILE DE STAPAN */
+.button_homepage_stapan{
+	width: 304px;
+	height: 49px;
+
+	background: #E36D72;
+	border-radius: 8px;
+	border-width : 0;
+	
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+poz_poze_stapan{
+	position: absolute;
+	width: 1364px;
+	height: 266px;
+	left: 118px;
+	top: 467px;
+}
